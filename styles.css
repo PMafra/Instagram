@@ -124,23 +124,25 @@ body {
 .reacoes {
     width: 100%;
     height: 30px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 4px 0;
 }
 
 .icone-post {
-    font-size: 18px;
-    margin-right: 10px;
+    font-size: 25px;
+    margin-right: 2px;
+    margin-top: 5px;
 }
 
 .react {
-    font-size: 18px;
-    width: 74px;
+    font-size: 25px;
+    width: 100px;
     display: flex;
     justify-content: space-between;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 }
 
 .aliens {
@@ -154,7 +156,7 @@ body {
     background-color: #FFFFFF;
     display: flex;
     align-items: center;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 .curtidas img {
@@ -164,12 +166,69 @@ body {
     border-radius: 33px;
 }
 
+.barra-curtir {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 7px;
+}
+
 .comentar {
     width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input {
+    width: calc(100% - 75px);
+    border: none;
+    outline: none;
+    font-size: 14px;
+    margin-left: 7px;
+}
+
+.publicar {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 8px;
+}
+
+.publicar button {
+    font-size: 14px;
+    font-weight: 500px;
+    color: #B2DFFC;
+}
+
+button {
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer; 
+}
+
+button:hover {
+    transition: 300ms;
+}
+
+.salvar:hover{
+    color: #a09a9a;
+}
+
+.publicar button:hover {
+    color: #0095F6;
+}
+
+
+.barra-curtir button:hover {
+    color: #ED4956;
+}
+
+.curtir {
+    font-size: 16px;
 }
 
 .escrita-inf {
-    margin-bottom: 6px;
+    margin-bottom: 9px;
 }
 
 .pesquisar, .opcoes, .instagram {
@@ -185,9 +244,26 @@ body {
     font-size: 14px;
 }
 
+.negrito-500 {
+    font-weight: 500;
+}
+
+.cinzinha {
+    color: #a09a9a;
+}
+
+.mini {
+    font-size: 11px;
+}
+
+.click {
+    cursor: pointer;
+}
+
 strong {
     font-weight: bold;
 }
+
 
 /*
 html {
@@ -273,11 +349,13 @@ html {
         top: 0;
         left: 0;
         border-bottom: 1px solid #DBDBDB;
+        z-index: 1000;
     }
     .barra-topo {
         width: 970px;
         position: initial;
         border-bottom: none;
+        z-index: 1000;
     }
     .sidebar {
         display: initial;

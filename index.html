@@ -27,10 +27,10 @@
             <ion-icon class="icone sumir" name="paper-plane-outline"></ion-icon>
 
             <div class="opcoes">
-            <ion-icon class="icone-desktop icone" name="paper-plane-outline"></ion-icon>
-            <ion-icon class="icone-desktop icone" name="compass-outline"></ion-icon>
-            <ion-icon class="icone-desktop icone" name="heart-outline"></ion-icon>
-            <ion-icon class="icone-desktop icone" name="person-outline"></ion-icon>
+            <ion-icon class="icone-desktop icone click" name="paper-plane-outline"></ion-icon>
+            <ion-icon class="icone-desktop icone click" name="compass-outline"></ion-icon>
+            <ion-icon class="icone-desktop icone click" name="heart-outline"></ion-icon>
+            <ion-icon class="icone-desktop icone click" name="person-outline"></ion-icon>
             </div>
         </div>
     </div>
@@ -78,28 +78,35 @@
                         <img src="story.png">
                         <p><strong>Alien</strong></p>
                     </div>
-                    <ion-icon class="icone-post" name="ellipsis-horizontal-outline"></ion-icon>
+                    <ion-icon style="margin-right: 14px; font-size: 20px;" name="ellipsis-horizontal" class="click"></ion-icon>
                 </div>
-                <img class="universo" src="post-insta.jpg">
+                <video controls autoplay muted style="width: 100%;" src="video.mp4" src="video.ogv"></video>
                 <div class="barra-inf-post">
                 <div class="reacoes">
                     <div class="react">
-                        <ion-icon name="heart-outline"></ion-icon>
-                        <ion-icon name="chatbubble-outline"></ion-icon>
-                        <ion-icon name="paper-plane-outline"></ion-icon>
+                        <ion-icon name="heart-outline" class="click"></ion-icon>
+                        <ion-icon name="chatbubble-outline" class="click"></ion-icon>
+                        <ion-icon name="paper-plane-outline" class="click"></ion-icon>
                     </div>
-                    <ion-icon class="icone-post" name="bookmark-outline"></ion-icon>
+                    <button class="salvar"><ion-icon class="icone-post" name="bookmark-outline"></ion-icon></button>
                 </div>
                 <div class="curtidas">
                     <img src="rai.png">
-                    <p>Curtido por <strong>respondeai</strong> e <strong>outras 101.523 pessoas</strong></p>
+                    <p>Curtido por <span class="negrito-500">respondeai</span> e <span class="negrito-500">outras 101.523 pessoas</span></p>
                 </div>
-                <p class="escrita-inf"><strong>Alien</strong> Algum comentário escrito aqui</p>
-                <p class="escrita-inf">Ver todos os 666 comentários</p>
+                <div class="barra-curtir">
+                <p class="escrita-inf"><span class="negrito-500">Alien</span> Algum comentário escrito aqui</p>
+                <button><ion-icon class="curtir" name="heart-outline"></ion-icon></button>
+                </div>
+                <p class="escrita-inf cinzinha">Ver todos os 666 comentários</p>
                 <div class="comentar escrita-inf">
-                    <p>Adicione um comentário...</p>
+                    <p class="cinzinha">Adicione um comentário...</p>
+                    <div class="publicar">
+                        <input type="text">
+                        <button>Publicar</button>
+                    </div>
                 </div>
-                <p class="escrita-inf">Há 1 minuto • <strong>Ver tradução</strong></p>
+                <p><span class="cinzinha mini">Há 1 minuto •</span><span class="negrito-500 mini"> Ver tradução</span></p>
                 </div>
             </div>
             <div class="post">
@@ -108,28 +115,35 @@
                         <img src="story.png">
                         <p><strong>Alien</strong></p>
                     </div>
-                    <ion-icon class="icone-post" name="ellipsis-horizontal-outline"></ion-icon>
+                    <ion-icon style="margin-right: 14px; font-size: 20px;" name="ellipsis-horizontal" class="click"></ion-icon>
                 </div>
-                <img class="universo" src="post-insta.jpg">
+                <video controls autoplay muted style="width: 100%;" src="video.mp4" src="video.ogv"></video>
                 <div class="barra-inf-post">
                 <div class="reacoes">
                     <div class="react">
-                        <ion-icon name="heart-outline"></ion-icon>
-                        <ion-icon name="chatbubble-outline"></ion-icon>
-                        <ion-icon name="paper-plane-outline"></ion-icon>
+                        <ion-icon name="heart-outline" class="click"></ion-icon>
+                        <ion-icon name="chatbubble-outline" class="click"></ion-icon>
+                        <ion-icon name="paper-plane-outline" class="click"></ion-icon>
                     </div>
-                    <ion-icon class="icone-post" name="bookmark-outline"></ion-icon>
+                    <button class="salvar"><ion-icon class="icone-post" name="bookmark-outline"></ion-icon></button>
                 </div>
                 <div class="curtidas">
                     <img src="rai.png">
-                    <p>Curtido por <strong>respondeai</strong> e <strong>outras 101.523 pessoas</strong></p>
+                    <p>Curtido por <span class="negrito-500">respondeai</span> e <span class="negrito-500">outras 101.523 pessoas</span></p>
                 </div>
-                <p class="escrita-inf"><strong>Alien</strong> Algum comentário escrito aqui</p>
-                <p class="escrita-inf">Ver todos os 666 comentários</p>
+                <div class="barra-curtir">
+                <p class="escrita-inf"><span class="negrito-500">Alien</span> Algum comentário escrito aqui</p>
+                <button><ion-icon class="curtir" name="heart-outline"></ion-icon></button>
+                </div>
+                <p class="escrita-inf cinzinha">Ver todos os 666 comentários</p>
                 <div class="comentar escrita-inf">
-                    <p>Adicione um comentário...</p>
+                    <p class="cinzinha">Adicione um comentário...</p>
+                    <div class="publicar">
+                        <input type="text">
+                        <button>Publicar</button>
+                    </div>
                 </div>
-                <p class="escrita-inf">Há 1 minuto • <strong>Ver tradução</strong></p>
+                <p><span class="cinzinha mini">Há 1 minuto •</span><span class="negrito-500 mini"> Ver tradução</span></p>
                 </div>
             </div>
             <div class="post">
@@ -138,28 +152,35 @@
                         <img src="story.png">
                         <p><strong>Alien</strong></p>
                     </div>
-                    <ion-icon class="icone-post" name="ellipsis-horizontal-outline"></ion-icon>
+                    <ion-icon style="margin-right: 14px; font-size: 20px;" name="ellipsis-horizontal" class="click"></ion-icon>
                 </div>
-                <img class="universo" src="post-insta.jpg">
+                <video controls autoplay muted style="width: 100%;" src="video.mp4" src="video.ogv"></video>
                 <div class="barra-inf-post">
                 <div class="reacoes">
                     <div class="react">
-                        <ion-icon name="heart-outline"></ion-icon>
-                        <ion-icon name="chatbubble-outline"></ion-icon>
-                        <ion-icon name="paper-plane-outline"></ion-icon>
+                        <ion-icon name="heart-outline" class="click"></ion-icon>
+                        <ion-icon name="chatbubble-outline" class="click"></ion-icon>
+                        <ion-icon name="paper-plane-outline" class="click"></ion-icon>
                     </div>
-                    <ion-icon class="icone-post" name="bookmark-outline"></ion-icon>
+                    <button class="salvar"><ion-icon class="icone-post" name="bookmark-outline"></ion-icon></button>
                 </div>
                 <div class="curtidas">
                     <img src="rai.png">
-                    <p>Curtido por <strong>respondeai</strong> e <strong>outras 101.523 pessoas</strong></p>
+                    <p>Curtido por <span class="negrito-500">respondeai</span> e <span class="negrito-500">outras 101.523 pessoas</span></p>
                 </div>
-                <p class="escrita-inf"><strong>Alien</strong> Algum comentário escrito aqui</p>
-                <p class="escrita-inf">Ver todos os 666 comentários</p>
+                <div class="barra-curtir">
+                <p class="escrita-inf"><span class="negrito-500">Alien</span> Algum comentário escrito aqui</p>
+                <button><ion-icon class="curtir" name="heart-outline"></ion-icon></button>
+                </div>
+                <p class="escrita-inf cinzinha">Ver todos os 666 comentários</p>
                 <div class="comentar escrita-inf">
-                    <p>Adicione um comentário...</p>
+                    <p class="cinzinha">Adicione um comentário...</p>
+                    <div class="publicar">
+                        <input type="text">
+                        <button>Publicar</button>
+                    </div>
                 </div>
-                <p class="escrita-inf">Há 1 minuto • <strong>Ver tradução</strong></p>
+                <p><span class="cinzinha mini">Há 1 minuto •</span><span class="negrito-500 mini"> Ver tradução</span></p>
                 </div>
             </div>
             <div class="post">
@@ -168,30 +189,38 @@
                         <img src="story.png">
                         <p><strong>Alien</strong></p>
                     </div>
-                    <ion-icon class="icone-post" name="ellipsis-horizontal-outline"></ion-icon>
+                    <ion-icon style="margin-right: 14px; font-size: 20px;" name="ellipsis-horizontal" class="click"></ion-icon>
                 </div>
-                <img class="universo" src="post-insta.jpg">
+                <video controls autoplay muted style="width: 100%;" src="video.mp4" src="video.ogv"></video>
                 <div class="barra-inf-post">
                 <div class="reacoes">
                     <div class="react">
-                        <ion-icon name="heart-outline"></ion-icon>
-                        <ion-icon name="chatbubble-outline"></ion-icon>
-                        <ion-icon name="paper-plane-outline"></ion-icon>
+                        <ion-icon name="heart-outline" class="click"></ion-icon>
+                        <ion-icon name="chatbubble-outline" class="click"></ion-icon>
+                        <ion-icon name="paper-plane-outline" class="click"></ion-icon>
                     </div>
-                    <ion-icon class="icone-post" name="bookmark-outline"></ion-icon>
+                    <button class="salvar"><ion-icon class="icone-post" name="bookmark-outline"></ion-icon></button>
                 </div>
                 <div class="curtidas">
                     <img src="rai.png">
-                    <p>Curtido por <strong>respondeai</strong> e <strong>outras 101.523 pessoas</strong></p>
+                    <p>Curtido por <span class="negrito-500">respondeai</span> e <span class="negrito-500">outras 101.523 pessoas</span></p>
                 </div>
-                <p class="escrita-inf"><strong>Alien</strong> Algum comentário escrito aqui</p>
-                <p class="escrita-inf">Ver todos os 666 comentários</p>
+                <div class="barra-curtir">
+                <p class="escrita-inf"><span class="negrito-500">Alien</span> Algum comentário escrito aqui</p>
+                <button><ion-icon class="curtir" name="heart-outline"></ion-icon></button>
+                </div>
+                <p class="escrita-inf cinzinha">Ver todos os 666 comentários</p>
                 <div class="comentar escrita-inf">
-                    <p>Adicione um comentário...</p>
+                    <p class="cinzinha">Adicione um comentário...</p>
+                    <div class="publicar">
+                        <input type="text">
+                        <button>Publicar</button>
+                    </div>
                 </div>
-                <p class="escrita-inf">Há 1 minuto • <strong>Ver tradução</strong></p>
+                <p><span class="cinzinha mini">Há 1 minuto •</span><span class="negrito-500 mini"> Ver tradução</span></p>
                 </div>
             </div>
+            
                 
             
         </div>
