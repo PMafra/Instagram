@@ -44,7 +44,7 @@ body {
 
 .icone-insta {
     font-size: 23px;
-    margin-left: 18px;
+    margin-left: 15px;
 }
 
 .icone {
@@ -264,6 +264,10 @@ strong {
     font-weight: bold;
 }
 
+.sidebar, .ghost-sidebar {
+    display: none;
+}
+
 
 @media (min-width: 614px) {
     .conteudo {
@@ -305,9 +309,6 @@ strong {
     }
     .barra-bottom {
         display: none;
-    }
-    .barra-topo {
-        justify-content: space-between;
     }
     .pesquisar {
         display: initial;
